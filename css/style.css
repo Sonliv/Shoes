@@ -1,0 +1,416 @@
+/* RESET & fonts 
+	font-family: 'Roboto';
+*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Montserrat';
+	color: black;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+a{
+	text-decoration: none;
+}
+.container {
+	margin: 0 auto;
+	width: 1200px;
+}
+
+/*header */
+
+.header {
+	background-color: #F9F6F1;
+	padding: 50px;
+}
+.header-container {
+}
+.nav-left {
+	display: flex;
+	align-items: center;
+	margin: 0 0 168px 0;
+}
+.nav-item {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	letter-spacing: 0.03em;
+}
+.nav-item:nth-child(1) {
+	margin: 0 45px 0 0;
+}
+.nav-item:nth-child(2) {
+	margin: 0 45px 0 0;
+}
+.nav-item:nth-child(3) {
+	margin: 0 101px 0 0;
+}
+.nav-item:nth-child(4) {
+	margin: 0 20px 0 0;
+}
+.nav-item:nth-child(5) {
+	margin: 0 90px 0 0;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 29px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+}
+.nav-item:nth-child(6) {
+	margin: 0 35px 0 0;
+}
+.nav-item:nth-child(7) {
+	margin: 0 101px 0 0;
+}
+.nav-item:nth-child(8) {
+	margin: 0 15px 0 0;
+}
+
+.triangle{
+	padding: 0 0 4px 0;
+}
+
+
+
+.first-screen {
+	display: flex;
+	justify-content: space-evenly;
+}
+.left-side {
+}
+.header-discont {
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 37px;
+	letter-spacing: 0.02em;
+	margin: 0 0 35px 0;
+}
+.header-discont_second {
+	font-weight: 700;
+	font-size: 55px;
+	line-height: 67px;
+	letter-spacing: 0.04em;
+	margin: 0 0 55px 0;
+}
+.header-btn {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: 0.03em;
+	color: #FFFFFF;
+	background-color: #D7B399;
+	padding: 18px 30px;
+	width: 250px;
+	height: 55px;
+}
+.right-side {
+	margin: 0 0 130px 0;
+}
+
+.slider{
+	display: flex;
+	justify-content: center;
+}
+.slider img{
+	margin: 0 15px 0 0;
+}
+
+.delivery{
+	background: black;
+	color: #FFFFFF;
+	text-align: center;
+}
+.delivery p:nth-child(1){
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 37px;
+	letter-spacing: 0.02em;
+	color: #FFFFFF;
+	padding: 80px 0 23px 0;
+}
+.delivery p:nth-child(2){
+	font-weight: 300;
+	font-size: 21px;
+	line-height: 26px;
+	color: white;
+	padding: 0 0 69px 0;
+}
+.delivery span{
+	font-weight: 300;
+	font-size: 30px;
+	line-height: 37px;
+	letter-spacing: 0.02em;
+	color: #FFFFFF;
+	padding: 80px 0 23px 0;
+}
+
+/* Секция коллекции */
+
+.platia {
+	width: 100%;
+	height: 730px; /* auto */
+	background-image: linear-gradient(to right, #F9F6F1 50%, #F4F4F4 50%);
+}
+.platia-wrapper {
+}
+.collection {
+	width: 50%;
+	background-color: #F9F6F1;
+	position: relative;
+	height: 270px;
+}
+.collection-title {
+	padding: 60px 0 0 0;
+	margin: 0 0 25px 0;
+
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	letter-spacing: 0.03em;
+}
+.collection-title span{
+	font-weight: 500;
+}
+.collection-description {
+	margin: 0 0 40px 0;
+
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 20px;
+}
+.collection-btn {
+}
+.man-img{
+	position: absolute;
+	top: 79px;
+	right: 15px;
+}
+.collections{
+	display: flex;
+	justify-content: space-between;
+}
+.collection-right{
+	background-color: #F4F4F4;
+	margin: 0 0 0 36px;
+	position: relative;
+}
+.right-girl{
+	position: absolute;
+	right: 70px;
+}
+
+.collection-cards {
+	display: flex;
+	flex-wrap: wrap;
+}
+.card_1 {
+	position: relative;
+	margin-bottom: -20px;
+}
+.title {
+	font-weight: 300;
+	font-size: 21px;
+	line-height: 26px;
+	letter-spacing: 0.03em;
+	position: absolute;
+	bottom: 24px;
+	left: 30px;
+}
+
+
+/* Карточки модели */
+
+
+.modeli {
+	margin-top: 160px;
+}
+.container {
+}
+.modeli-title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 44px;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+
+	margin: 0 0 100px 0;
+	text-align: center;
+}
+.modeli-wrapper {
+	margin: 0 0 100px 0;
+	position: relative;
+}
+.modeli-card-title {
+	margin: 0 0 15px 0;
+	position: relative;
+	left: 72px;
+
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 17px;
+}
+.modeli-img{
+	margin: 0 0 25px 0;
+	padding: 22px 25px 0 25px;
+}
+.modeli-cost {
+	position: relative;
+	left: 81px;
+
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 22px;
+	color: #D7B399;
+}
+.modeli-btn {
+	text-align: center;
+	margin: 0 0 150px 0;
+}
+
+.modeli-img-back{
+	position: absolute;
+}
+.modeli-card-title span{
+	margin: 0 0 0 20px;
+}
+.modeli-cards{
+	display: flex;
+	justify-content: space-between;
+}
+
+/* Скидки */
+.discount{
+	background-color: black;
+}
+.container {
+}
+.discount-wrapper {
+	color: white;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.dicount-text {
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 37px;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: #FFFFFF;
+	margin: 72px 0;
+}
+.discount-wrapper input{
+	width: 255px;
+	height: 40px;
+}
+.discount-wrapper input::placeholder {
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 15px;
+	letter-spacing: 0.02em;
+	color: #8D8D8D;
+	padding: 0 0 0 20px;
+}
+.discount-wrapper input:focus {
+	border: none;
+	outline: none;
+	text-indent: 5px; 
+}
+.discount-wrapper button{
+	width: 185px;
+	height: 42px;
+	background: #D7B399;
+	border: none;
+	outline: none;
+
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+/* footer */
+
+.footer {
+	background-color: black;
+	color: white;
+}
+.footer a{
+	color: white;
+}
+.footer p{
+	color: white;
+}
+.container {
+}
+.footer-wrapper {
+	padding: 70px 0 0 0;
+	display: flex;
+	justify-content: space-evenly;
+}
+.footer-left {
+	width: 40%;
+}
+.footer-title {
+}
+.left-text {
+	max-width: 200px;
+
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 22px;
+	margin: 0 0 82px 0;
+}
+.footer-list {
+	margin: 20px 0 0 0;
+}
+.footer-item {
+	margin: 0 0 10px 0;
+}
+.footer-item a {
+
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 22px;
+	color: #CBCFD4;
+}
+.footer-title-loop{
+	display: flex;
+	align-items: center;
+}
+.footer-title-loop p {
+	padding: 30px 0 32px 20px;
+}
+
+.footer-item:nth-child(1){
+	font-weight: 700;
+	font-size: 10px;
+	line-height: 12px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	}
+
+
+	.under-footer {
+
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 22px;
+	}
+	.left-side-under {
+	}
+	.right-side-under {
+	}
+	.under-wrapper{
+		display: flex;
+		justify-content: space-between;
+
+		margin: 28px 0;
+	}
